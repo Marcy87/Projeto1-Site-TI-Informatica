@@ -1,0 +1,188 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, white 80%, grey);
+}
+
+
+/*HEADER*/
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.right {
+    float: right;
+    width: 35%;
+}
+
+
+/*NAV*/
+#menuprincipal {
+    clear: both;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    padding: 2%;
+}
+
+#menuprincipal ul {
+    width: 1400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#menuprincipal li {
+    float: left;
+    list-style: none;
+}
+
+#menuprincipal a {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+}
+
+#menuprincipal a:hover {
+    color: grey;
+}
+
+#infraestrutura-de-rede {
+    font-weight: bold;
+}
+
+.aleft {
+    margin-left: 55px;
+}
+
+
+/*MAIN*/
+h1 {
+    background-color: rgb(1, 1, 54);
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 30px;
+}
+
+section {
+    width: 1400px;
+}
+
+.coluna1 {
+    float: left;
+    width: 500px;
+}
+
+.figure {
+    margin-left: 650px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.clear {
+    clear: both;
+    margin: 150px 0 50px 0;
+}
+
+.img2 {
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.coluna2 {
+    float: right;
+    width: 600px;
+}
+
+article ul {
+    margin: 20px 0 40px 20px;
+    font-size: 1.2em;
+}
+
+article li {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0 0 20px 0;
+}
+
+.coluna1 p, .coluna2 p, .clear p, .paragrafo p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.linkcontato {
+    color: blue;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 20px;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    color: white;
+    text-align: center;
+    padding: 1%;
+    clear: both;
+}
+
+#containerrodape {
+    width: 1400px;
+}
+
+#rodape {
+    float: left;
+    width: 500px;
+    text-align: justify;
+}
+
+#menurodape ul {
+    list-style: none;
+}
+
+#menurodape ul li {
+    display: inline;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#menurodape a {
+    text-decoration: none;
+    color: white;
+}
+
+#menurodape a:hover {
+    color: silver;
+}
+
+a {
+    color: white;
+}
+
+.copy {
+    clear: both;
+    padding: 10px;
+}
+
+/*WHATSAPP*/
+#whatsapp {
+    position: fixed;
+    left: 40px;
+    bottom: 10px;
+}
+
+.whatsapp {
+    height: 40px;
+    width: 40px;
+}

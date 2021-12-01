@@ -1,0 +1,256 @@
+/*BODY*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    body {
+        background-image: linear-gradient(to right, white 80%, grey);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+
+/*HEADER*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    #logoheader {
+        width: 100% ;
+    }
+
+    .logo {
+        float: none;
+        width: 100%;
+        
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+
+/*NAV*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    #menuprincipal {
+        clear: none;
+        background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+        width: 100%;
+    }
+    
+    #menuprincipal ul {
+        width: 100%;
+    }
+    
+    #menuprincipal li {
+        float: none;
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+    
+    #menuprincipal a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .aleft {
+        margin-left: 0;
+    }
+}
+
+
+/*MAIN*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    #corpo {
+        width: 95%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.8em;
+    }
+    
+    .paragrafo {
+        width: 90%;
+        text-align: center;
+        font-size: 2em;
+        padding: 2%;
+        border: 1px solid #666;
+        border-radius: 25px;
+        box-shadow: 10px 10px 20px #666, 3px 3px 10px rgba(0, 0, 0, 0.5)inset;
+        margin: 0 0 10% 2.8%;
+    }
+    
+    .left {
+        float: none;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10%;   
+        width: 100%;
+    }
+
+    .left h2 {
+        font-size: 2em;
+    }
+
+
+    .left p {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 0 0 2%;
+        width: 96%;
+    }
+    
+    .left:hover {
+        transform: none;
+        transition: none;
+        z-index: 1;
+        cursor: none;
+    }
+
+    .linkinformaçoes {
+        color: black;
+        text-decoration: none;
+    }
+
+    article figure img {
+        width: 30%;
+        height: 30%;
+        margin: 5% 0 5% 0;
+    }
+    
+    hr {
+        clear: both;
+    }
+
+    
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    /*Produtos em destaque*/
+    .tituloprodutosemdestaque {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    #produtosemdestaque {
+        margin-left: 0%;
+    }
+
+    .leftprodutosemdestaque {
+        float: none;
+        margin-left: 0;
+    }
+
+    #produtosemdestaque .leftprodutosemdestaque figure img {
+        width: 30%;
+        height: 30%;
+    }
+
+    figcaption {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    /*botões*/
+    button {
+        margin: 5% 0 10% 0;
+        padding: 10px 15px 10px 15px;
+        border-radius: 25px;
+        box-shadow: 0 0 10px blue;
+        cursor: none;
+        font-size: 1.2em;
+    }
+
+    button:hover {
+        box-shadow: none;
+    }
+
+    .linksbotoes {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+/*FOOTER*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    footer {
+        margin-top: 0;
+        background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 2% 0 2% 0;
+        clear: none;
+    }
+
+    #containerrodape {
+        width: 100%;
+    }
+
+    .rodape {
+        float: none;
+        width: 50%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #menurodape {
+        margin-left: 0%;
+    }
+
+    #menurodape ul {
+        list-style: none;
+    }
+
+    #menurodape ul li {
+        display: none;
+        margin: 0;
+        font-size: 0;
+    }
+
+    #menurodape li a {
+        margin-left: 0%;
+        text-decoration: none;
+        color: white;
+    }
+
+    #menurodape a:hover {
+        color: none;
+    }
+
+    .copy {
+        clear: none;
+        width: 80%;
+        margin-top: 5%;
+        font-size: 1.2em;
+    }
+}
+
+/*WHATSAPP*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1400px) {
+    #whatsapp {
+        position: fixed;
+        left: 2%;
+        bottom: 2%;
+    }
+
+    .whatsapp {
+        height: 20%;
+        width: 20%;
+    }
+}

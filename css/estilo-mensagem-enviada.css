@@ -1,0 +1,218 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, white 80%, grey);
+}
+
+
+/*HEADER*/
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.right {
+    float: right;
+    width: 35%;
+}
+
+
+/*NAV*/
+.menuprincipal {
+    clear: both;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    text-align: center;
+    padding: 1.5%;
+}
+
+.menuprincipal a {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2%;
+    padding: 15px;
+    color: #fff;
+}
+
+.menuprincipal a:hover {
+    color: rgb(21, 248, 0);
+    font-size: 2em;
+}
+
+#contato {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/*MAIN*/
+section {
+    width: 1400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 126px 0 126px 0;
+}
+
+
+/*FOOTER*/
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    color: white;
+    text-align: center;
+    padding: 2%;
+    clear: both;
+}
+
+.rodape {
+    float: left;
+    width: 500px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#menurodape {
+    margin-left: 50%;
+}
+
+#menurodape a {
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+#menurodape a:hover {
+    color: silver;
+}
+
+a {
+    color: white;
+}
+
+.copy {
+    clear: both;
+}
+
+/*WHATSAPP*/
+#whatsapp {
+    position: fixed;
+    left: 40px;
+    bottom: 10px;
+}
+
+.whatsapp {
+    height: 40px;
+    width: 40px;
+}* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, white 80%, grey);
+}
+
+
+/*HEADER*/
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.right {
+    float: right;
+    width: 35%;
+}
+
+
+/*NAV*/
+.menuprincipal {
+    clear: both;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    text-align: center;
+    padding: 1.5%;
+}
+
+.menuprincipal a {
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2%;
+    padding: 15px;
+    color: #fff;
+}
+
+.menuprincipal a:hover {
+    color: rgb(21, 248, 0);
+    font-size: 2em;
+}
+
+#contato {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/*MAIN*/
+
+section {
+    width: 1400px;
+}
+
+
+/*FOOTER*/
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(to top, rgb(6, 6, 131), rgb(0, 0, 0));
+    color: white;
+    text-align: center;
+    padding: 2%;
+    clear: both;
+}
+
+.rodape {
+    float: left;
+    width: 500px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#menurodape {
+    margin-left: 50%;
+}
+
+#menurodape a {
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+#menurodape a:hover {
+    color: silver;
+}
+
+a {
+    color: white;
+}
+
+.copy {
+    clear: both;
+}
+
+/*WHATSAPP*/
+#whatsapp {
+    position: fixed;
+    left: 40px;
+    bottom: 10px;
+}
+
+.whatsapp {
+    height: 40px;
+    width: 40px;
+}
